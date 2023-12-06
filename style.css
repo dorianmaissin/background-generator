@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    gap: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+h1{
+    font-size: 4em;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+.colorBox{
+    display: flex;
+    flex-direction: row;
+}
+
+input{
+    margin-left: 20px;
+}
+
+button{
+    background-color: white;
+    padding: 5px 20px;
+    border-radius: 20px;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    margin-top: 50px;
+    color: black;
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.direction{
+    margin-top: 300px;
+    position: absolute;
+    bottom: 30px ;
+
+    padding: 20px 0px;
+    border-radius: 30px;
+}
+
+.direction-vertical{
+    position: absolute;
+    transform: rotate(90deg) translateX(-50%);
+}
+
+.arrow2{
+    transform: rotate(180deg);
+}
+
+img{
+    width: 30px;
+    margin: 20px;
+    cursor: pointer;
+}
